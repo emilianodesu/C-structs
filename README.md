@@ -5,7 +5,9 @@
 - Carlos Emiliano Mendoza Hernández
 - Luis Gerardo Arellano Cortés
 
-Con el siguiente comando se compilan los programas:
+## Instrucciones
+
+Ubicandose en la ruta del script, con el siguiente comando se compilan los programas:
 
 ```bash
 gcc ejercicio1.c -o ejercicio1
@@ -18,3 +20,11 @@ Y se ejecuta con el siguiente comando:
 ```
 
 Reemplazando `ejercicio1` por el nombre del programa que se desea ejecutar.
+
+## Capturas de pantalla
+
+### Ejercicio 6
+
+### Ejercicio 7
+
+![Ejercicio 7](img/ejercicio7.png)
