@@ -14,7 +14,7 @@ void asignarLibro(struct Libro *libro, char titulo[], char autor[], int year) {
     libro->year = year;
 }
 //Función para añadir un libro al catálogo
-void añadirLibro(struct Libro **libros, int *numLibros, char titulo[], char autor[], int year) {
+void agregarLibro(struct Libro **libros, int *numLibros, char titulo[], char autor[], int year) {
     //Aumenta el tamaño del arreglo de libros
     *libros = realloc(*libros, (*numLibros + 1) * sizeof(struct Libro));        //Realloc redimensiona el bloque de memoria
     //Asigna valores al nuevo libro con la función asignarLibro
@@ -60,7 +60,7 @@ int main() {
         scanf("%s", autor);
         printf("Introduce el año del libro %d: ", i + 1);
         scanf("%d", &year);
-        añadirLibro(&libros, &numLibros, titulo, autor, year);
+        agregarLibro(&libros, &numLibros, titulo, autor, year);
     }
 
     //Imprime la lista de libros
