@@ -25,6 +25,8 @@ Reemplazando `ejercicio1` por el nombre del programa que se desea ejecutar.
 
 ### Ejercicio 6
 
+![Ejercicio 6](img/ejercicio6.png)
+
 ### Ejercicio 7
 
 ![Ejercicio 7](img/ejercicio7.png)
